@@ -23,7 +23,6 @@ class Index(Resource):
         response_dict = {
             "index": "Welcome to the Newsletter RESTful API",
         }
-
         response = make_response(
             jsonify(response_dict),
             200,
